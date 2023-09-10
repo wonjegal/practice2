@@ -34,9 +34,11 @@ private:
 int main(void){
     Complex c1;
     Complex c2(2,3);
+    Complex c3(3,4);
 
     cout << "C1 = " << c1.GetReal() << " , " << c1.GetImag() << endl;
-    cout << "C2 = " << c2.GetReal() << " , " << c2.GetImag() << endl;
+    cout << "C2 = " << c2.GetReal() << " , " << c2.GetImag() << endl; 
+    cout << "C3 = " << c3.GetReal() << " , " << c3.GetImag() << endl;
 }
 
 
