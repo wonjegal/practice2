@@ -15,10 +15,11 @@ public:
 };
 
 int main(){
-    MyClass a, b;
+    MyClass a, b, c;
     cout << "a의 주소는 " << &a << endl;
     cout << "b의 주소는 " << &b << endl;
-
+    cout << "c의 주소는 " << &c << endl;
     a.PrintThis();
     b.PrintThis();
+    c.PrintThis();
 }
